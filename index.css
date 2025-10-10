@@ -1,0 +1,156 @@
+
+  body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+      color: #333;
+      margin: 0;
+      overflow-x: hidden;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #f8f9faa9 !important;
+    }
+
+    .navbar-nav {
+      margin: 0 auto;
+    }
+    
+    .nav-link:hover {
+      color: #00bfa6 !important;
+    }
+
+    .nav-item .nav-link {
+      font-weight: 500;
+      color: #000000 !important;
+      padding: 10px 15px;
+      transition: color 0.3s;
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+      color: #024e44 !important;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://i.pinimg.com/736x/d3/28/00/d3280029a5db2ee73d241a181c1a7829.jpg') center/cover no-repeat;
+      color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.558);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      max-width: 650px;
+      padding: 20px;
+    }
+    .hero-content h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .hero-content h1 span {
+      color: #00bfa6;
+    }
+    .hero-content p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    .btn-primary {
+      background-color: #00bfa6;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+    .btn-primary:hover {
+      background-color: #009e8a;
+    }
+
+    .skill-icon {
+      color: #00bfa6;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 768px) {
+      .hero-content {
+        text-align: center;
+      }
+      .hero-content h1 {
+        font-size: 2.2rem;
+      }
+    }
+    /* Background bawah supaya mulus */
+    .after-hero {
+      background-color: #f8f9fa;
+      height: 40vh;
+    }
+
+    @media (max-width: 992px) {
+      .hero {
+        justify-content: center;
+        padding: 0 20px;
+        text-align: center;
+      }
+      .skills-floating {
+        bottom: -150px;
+      }
+      .skill-card {
+        margin-bottom: 20px;
+      }
+    }
+    /* Section styling */
+    section {
+      padding: 80px 0;
+    }
+
+    h2.section-title {
+      font-weight: 600;
+      
+      margin-bottom: 50px;
+      position: relative;
+    }
+
+    h2.section-title::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 4px;
+      margin: 10px auto 0;
+      border-radius: 3px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+    }
+
+      /* Efek hover untuk link navigasi */
+  .hover-link:hover {
+    color: #009e8a !important;
+    text-decoration: underline;
+  }
+
+  footer h5 {
+    color: #009e8a;
+  }
+
+  footer hr {
+    opacity: 0.2;
+  }
+
+  footer .small {
+    font-size: 0.875rem;
+  }
